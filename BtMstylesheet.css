@@ -1,6 +1,6 @@
 /*BANNIERE*/
 #header { margin-top: 15px;
-  background-color: var(--neutral);
+  background-color: var(--neutralDarker);
   background-image: var(--header), var(--mist);
   background-position: 30px, 160px -260px;
   background-repeat: no-repeat;
