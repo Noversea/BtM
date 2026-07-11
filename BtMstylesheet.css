@@ -1,0 +1,49 @@
+/*BANNIERE*/
+#header { margin-top: 15px;
+  background-color: var(--neutralDarker);
+  background-image: var(--header), var(--mist);
+  background-position: 30px, 160px -260px;
+  background-repeat: no-repeat;
+  background-size: 400px, 700px;
+  height: 390px;
+  display: block; }
+
+#header .title { left: 250px;
+  top: 55px;
+  background: var(--gradientBeyond);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: var(--banniere-size);
+  font-weight: bolder;
+  filter: var(--shadow); }
+
+#header .version { float: right;
+  left: -160px;
+  top: 99px;
+  font-size: var(--little-size);
+  font-weight: lighter;
+  font-family: var(--fontextra); }
+
+#header .intro { top: 55px;
+  text-align: justify;
+  letter-spacing: -0.7px;
+  padding: 15px; }
+
+#header .intro, #header .more { background-color: var(--neutralDark);
+  width: 335px;
+  left: 385px; }
+
+#header .more { display: block;
+  top: 65px;
+  padding: 5px 15px;
+  text-align: end;
+  color: var(--accentClr); }
+
+#header .button { left: 720px;
+  bottom: 153px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  padding: 10px;
+  margin: 15px; }
