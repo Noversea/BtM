@@ -21,7 +21,7 @@ a.maintitle { position: absolute;
   background: var(--gradientMist);
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  font: 15px 'Amoria'; }
+  font: italic 15px 'Amoria'; }
 
 a.mainmenu, a.maintitle { padding: 5px; }
 
@@ -69,7 +69,7 @@ a.mainmenu img { display: none; }
 #header .more { display: block;
   top: 65px;
   padding: 5px 15px;
-  font: 15px 'Amoria';
+  font: italic 15px 'Amoria';
   text-align: end;
   color: var(--accentClr); }
 
@@ -153,8 +153,7 @@ a.mainmenu img { display: none; }
   margin-right: 10px; }
 
 #panel .txtotm, #panel .txtplaylist, .info { position: relative;
-  font-style: italic;
-  font-size: var(--medium-size);
+  font: italic 15px 'Amoria';
   filter: var(--shadow); }
 
 #panel .playlist { background-image: var(--play);
@@ -269,9 +268,7 @@ a.mainmenu img { display: none; }
   margin: 0 0 0 10px; }
 
 /*titre d'un forum*/
-a.forumtitle { font-size: var(--forum-size);
-  font-style: italic;
-  font-weight: bold; }
+a.forumtitle { font: italic 30px 'Amoria'; }
 
 #c3 .forum_content, #f2 .forum_content, #c3 .progressbar, #f2 .progressbar { position: relative; }
 
