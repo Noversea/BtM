@@ -97,9 +97,10 @@
 #panel .txtmeteo { height: 175px;
   margin-bottom: 10px; }
 
-#panel .statmeteo, #panel .season, #panel .time { align-items: center;
-  gap: 0 18px;
-  top: 3px; }
+#panel .statmeteo, #panel .season, #panel .time { display: flex;
+    gap: 0 15px;
+    top: 3px;
+    justify-content: space-around; }
 
 #panel .season, #panel .time { flex-direction: column; }
 
