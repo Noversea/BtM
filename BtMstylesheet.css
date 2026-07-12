@@ -81,7 +81,8 @@ a.mainmenu img { display: none; }
     gap: 15px; }
 
 #header .button { display: inline-flex;
-    justify-content: center; }
+    justify-content: center; 
+    font: italic 15px var(--fontextra); }
 
 /*PAGE D'ACCUEIL*/
 #panel .row, #panel .pa, #panel .ic, #panel .groups, #panel .games, #panel .statmeteo, #panel .season, #panel .time { position: relative;
