@@ -74,11 +74,11 @@ a.mainmenu img { display: none; }
   color: var(--accentClr); }
 
 .headerlinks { left: 735px;
-    bottom: 154px;
-    width: 120px; 
+    bottom: 136px;
+    width: 130px; 
     display: flex;
     flex-direction: column;
-    gap: 21px; }
+    gap: 15px; }
 
 #header .button { display: inline-flex;
     justify-content: center; }
