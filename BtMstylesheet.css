@@ -44,8 +44,6 @@ a.mainmenu img { display: none; }
   background-clip: text;
   -webkit-text-fill-color: transparent;
   font: 54px 'Amoria';
-  font-size: var(--banniere-size);
-  font-weight: bolder;
   filter: var(--shadow); }
 
 #header .version { float: right;
