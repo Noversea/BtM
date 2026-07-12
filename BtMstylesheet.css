@@ -59,7 +59,7 @@ a.mainmenu img { display: none; }
 
 #header .intro { top: 55px;
   text-align: justify;
-  letter-spacing: -0.7px;
+  letter-spacing: -0.5px;
   padding: 15px; }
 
 #header .intro, #header .more { background-color: var(--neutralDark);
@@ -74,11 +74,11 @@ a.mainmenu img { display: none; }
   color: var(--accentClr); }
 
 .headerlinks { left: 735px;
-    bottom: 136px;
+    bottom: 153px;
     width: 130px; 
     display: flex;
     flex-direction: column;
-    gap: 15px; }
+    gap: 21px; }
 
 #header .button { display: inline-flex;
     justify-content: center; 
@@ -94,7 +94,7 @@ a.mainmenu img { display: none; }
 #panel .ic, #panel .games { flex-direction: column; }
 
 #panel .news { width: 290px;
-  height: 170px;
+  height: 177px;
   margin: 0 10px 10px 0; }
 
 #panel .news, .topics_container, #panel .txtmeteo { overflow-x: hidden;
@@ -108,12 +108,12 @@ a.mainmenu img { display: none; }
 
 #panel .groups { flex-wrap: wrap;
   flex-direction: row;
-  gap: 10px;
-  width: 300px; }
+  gap: 10px; }
 
-#panel .button { display: flex;
+#panel .button { display: inline-flex;
   justify-content: center;
   width: 140px;
+  font: italic 15px 'Amoria';
   padding: 10px; }
 
 #panel .button:hover { color: var(--acccentClrLight); }
@@ -124,8 +124,7 @@ a.mainmenu img { display: none; }
   text-align: justify;
   letter-spacing: -0.5px; }
 
-#panel .meteo { width: 170px;
-  margin: 0 10px 0 0;
+#panel .meteo { margin: 0 10px 0 0;
   background-repeat: no-repeat;
   background-size: contain;
   background-position-y: 150px; }
