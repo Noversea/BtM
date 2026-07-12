@@ -175,12 +175,11 @@ a.mainmenu img { display: none; }
 .progressvalue { background: var(--gradientThe);
   height: 18px; }
 
-.info { font-size: var(--large-size);
-  display: block;
+.info { display: block;
   height: 0; }
 
-#panel .info { left: 900px;
-  bottom: -8px; }
+#panel .info { left: 895px;
+  bottom: -10px; }
 
 #footer_widgets {display:none}
 
@@ -235,14 +234,13 @@ a.mainmenu img { display: none; }
 #c3 .cate_title h2, #f2 .cate_title h2, .qeeltitle { background: var(--gradientZone);
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 40px;
-  font-style: italic;
-  padding: 0 10px 5px; }
+  font: italic 40px 'Amoria';
+  padding: 10px; }
 
 #c3 .cate_title::after, #f2 .cate_title::after { content: '';
   height: 1px;
   background: var(--contrastLight);
-  width: 490px; }
+  width: 467px; }
 
 #f2 .cate_title::after { width: 695px; }
 
