@@ -47,3 +47,129 @@
   width: 120px;
   padding: 10px;
   margin: 15px; }
+
+/*PAGE D'ACCUEIL*/
+#panel .row, #panel .pa, #panel .ic, #panel .groups, #panel .games, #panel .statmeteo, #panel .season, #panel .time { position: relative;
+  display:flex; }
+
+#panel { height: 300px;
+  margin: 15px 0 20px; }
+
+#panel .ic, #panel .games { flex-direction: column; }
+
+#panel .news { width: 290px;
+  height: 170px;
+  margin: 0 10px 10px 0; }
+
+#panel .news, .topics_container, #panel .txtmeteo { overflow-x: hidden;
+  scrollbar-width: none; }
+
+#panel .title { font-weight: bolder;
+  font-size: var(--little-size);
+  font-family: var(--fontextra);
+  color: var(--accentClr);
+  margin-right: 5px; }
+
+#panel .groups { flex-wrap: wrap;
+  flex-direction: row;
+  gap: 10px;
+  width: 300px; }
+
+#panel .button { display: flex;
+  justify-content: center;
+  width: 140px;
+  padding: 10px; }
+
+#panel .button:hover { color: var(--acccentClrLight); }
+
+#panel .news, #panel .meteo, #panel .playlist, #panel .cotm, #panel .totm { border-radius: 5px; }
+#panel .news, #panel .meteo, #panel .playlist { background-color: var(--neutralDark);
+  padding: 15px;
+  text-align: justify;
+  letter-spacing: -0.5px; }
+
+#panel .meteo { width: 170px;
+  margin: 0 10px 0 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-y: 150px; }
+
+#panel .txtmeteo { height: 175px;
+  margin-bottom: 10px; }
+
+#panel .statmeteo, #panel .season, #panel .time { align-items: center;
+  gap: 0 18px;
+  top: 3px; }
+
+#panel .season, #panel .time { flex-direction: column; }
+
+#panel .cotm, #panel .totm { width: 190px;
+  height: 95px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: var(--accentClr);
+  background-blend-mode: overlay;
+  margin-bottom: 10px; }
+
+#panel .txtotm, #panel .txtplaylist { display: block;
+  top: 28px;
+  text-align: end;
+  margin-right: 10px; }
+
+#panel .txtotm, #panel .txtplaylist, .info { position: relative;
+  font-style: italic;
+  font-size: var(--medium-size);
+  filter: var(--shadow); }
+
+#panel .playlist { background-image: var(--play);
+  background-position: center;
+  height: 60px; }
+
+#panel .txtplaylist { top: 4px; }
+.progressbar, .progressvalue { border-radius: 10px; }
+#panel .progressbar, #panel .info { position: absolute; }
+
+.progressbar { height: 20px;
+  background: var(--neutralDark);
+  border: var(--border); }
+
+#panel .progressbar { left: 0;
+  margin-top: 10px;
+  width: 890px; }
+
+.progressvalue { background: var(--gradientThe);
+  height: 18px; }
+
+.info { font-size: var(--large-size);
+  display: block;
+  height: 0; }
+
+#panel .info { left: 900px;
+  bottom: -8px; }
+
+#footer_widgets {display:none}
+
+/*Container du module*/
+.recent_topics { width: 240px;
+  margin: 0 10px 0 0;
+  background-color: var(--neutralDark);
+  padding: 15px; }
+
+.recent_topics, .recTopic { border-radius: 5px; }
+
+/*Titre du module*/
+.recent_topics-title { display: none; }
+
+/*Container qui liste les derniers sujets*/
+.topics_container { height: 240px; /*Hauteur de la liste*/ }
+
+/*Container de chaque ligne*/
+.recTopic { background-color: var(--neutral);
+  padding: 8px;
+  margin-bottom: 8px; }
+
+.recTopic-title { display: block;
+  text-transform: uppercase;
+  font-size: var(--little-size); }
+
+.recTopic--author { margin: 3px; }
