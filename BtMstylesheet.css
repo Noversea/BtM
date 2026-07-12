@@ -29,6 +29,10 @@ a.mainmenu, a.maintitle { padding: 5px; }
 a.mainmenu img { display: none; }
 
 /*BANNIERE*/
+#header, #header .intro, #header .more { border-radius: 5px; }
+#header .title, #header .version, #header .headerlinks, #header .intro, #header .more { position: relative; }
+#header .version, #header .button { font-style: italic; }
+
 #header { margin-top: 15px;
   background-color: var(--neutralDarker);
   background-image: var(--header), var(--mist);
@@ -69,14 +73,15 @@ a.mainmenu img { display: none; }
   text-align: end;
   color: var(--accentClr); }
 
-#header .button { left: 720px;
-  bottom: 153px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 120px;
-  padding: 10px;
-  margin: 15px; }
+.headerlinks { left: 735px;
+    bottom: 154px;
+    width: 120px; 
+    display: flex;
+    flex-direction: column;
+    gap: 21px; }
+
+#header .button { display: inline-flex;
+    justify-content: center; }
 
 /*PAGE D'ACCUEIL*/
 #panel .row, #panel .pa, #panel .ic, #panel .groups, #panel .games, #panel .statmeteo, #panel .season, #panel .time { position: relative;
