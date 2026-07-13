@@ -101,10 +101,7 @@ a.mainmenu img { display: none; }
   scrollbar-width: none; }
 
 #panel .title { font-weight: bolder;
-  font-size: var(--little-size);
-  font-family: var(--fontextra);
-  color: var(--accentClr);
-  margin-right: 5px; }
+  color: var(--accentClr); }
 
 #panel .groups { flex-wrap: wrap;
   flex-direction: row;
@@ -135,7 +132,8 @@ a.mainmenu img { display: none; }
 #panel .statmeteo, #panel .season, #panel .time { display: flex;
     gap: 0 15px;
     top: 3px;
-    justify-content: space-around; }
+    justify-content: space-around;
+    align-items: center; }
 
 #panel .season, #panel .time { flex-direction: column; }
 
@@ -203,10 +201,10 @@ a.mainmenu img { display: none; }
   margin-bottom: 8px; }
 
 .recTopic-title { display: block;
-  text-transform: uppercase;
-  font-size: var(--little-size); }
+  text-transform: uppercase; }
 
-.recTopic--author { margin: 3px; }
+.recTopic--author { font: 12px 'Amoria';
+   margin: 3px; }
 
 /*CATEGORIES*/
 .category { border-radius: 10px;
