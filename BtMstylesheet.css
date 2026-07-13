@@ -208,7 +208,7 @@ a.mainmenu img { display: none; }
 
 /*CATEGORIES*/
 .category { border-radius: 10px;
-  margin-bottom: 5px; }
+  margin-bottom: 15px; }
 
 .cat_new { box-shadow: var(--glow); }
 #f1, #f2, #f3, #f4 { margin-top: 10px; }
@@ -216,7 +216,6 @@ a.mainmenu img { display: none; }
 #c3, #f2 { background: var(--neutralDarker);
   padding: 10px; }
 
-.row { margin-bottom: 15px; }
 .row:last-child { margin: 0; }
 
 #c1 .forums { margin-top: 10px;
