@@ -290,7 +290,7 @@ a.forumtitle { font: italic 30px 'Amoria'; }
 #c1 .forum:nth-child(n+2) .forum_desc { max-height: 75px; }
 
 #c3 .forum_desc, #f2 .forum_desc { width: 460px;
-  max-height: 90px; }
+  max-height: 150px; }
 
 #c3 .forum_img, #f2 .forum_img { font-size: 0;
   position: absolute;
@@ -299,15 +299,15 @@ a.forumtitle { font: italic 30px 'Amoria'; }
   background-color: var(--accentClr); }
 
 #c3 .forum_img img, #f2 .forum_img img { width: 375px;
-  height: 205px;
+  height: 265px;
   mix-blend-mode: overlay; 
   object-fit: cover; }
 
-#c3 .progressbar, #f2 .progressbar { top: 170px;
+#c3 .progressbar, #f2 .progressbar { top: 230px;
   left: 15px;
-  width: 320px; }
+  width: 310px; }
 
-#c3 .info, #f2 .info { bottom: 207px;
+#c3 .info, #f2 .info { bottom: 265px;
   left: 325px; }
 
 /*conteneur avatar du dernier posteur*/
