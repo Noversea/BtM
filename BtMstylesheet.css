@@ -239,7 +239,7 @@ a.mainmenu img { display: none; }
   background: var(--contrastLight);
   width: 467px; }
 
-#f2 .cate_title::after { width: 695px; }
+#f2 .cate_title::after { width: 675px; }
 
 /*conteneur d'un forum*/
 .forum { background: var(--neutralDark);
@@ -308,7 +308,7 @@ a.forumtitle { font: italic 30px 'Amoria'; }
   width: 310px; }
 
 #c3 .info, #f2 .info { bottom: 265px;
-  left: 325px; }
+  left: 315px; }
 
 /*conteneur avatar du dernier posteur*/
 .forum_avatar, .forum_avatar img, .forum_lastpost, #subforum a { border-radius: 5px; }
