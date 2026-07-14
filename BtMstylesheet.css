@@ -262,6 +262,8 @@ a.mainmenu img { display: none; }
 #c3 .forum_box, #f2 .forum_box { grid-area: 1 / 2;
   margin: 0 0 0 10px; }
 
+#f1 .forum, #f3 .forum, #f4 .forum { margin-bottom: 15px; }
+
 /*titre d'un forum*/
 a.forumtitle { font: italic 30px 'Amoria'; }
 
