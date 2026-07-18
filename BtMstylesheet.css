@@ -369,6 +369,7 @@ a.forumtitle { font: italic 30px 'Amoria'; }
     margin-top: 10px;
 
     /* Supprime tous les éléments superflus comme les profils, la date, certains boutons d'édition...*/
+    .post_header,
     .post_profile,
     .post_date,
     .like_button,
