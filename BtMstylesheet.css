@@ -415,6 +415,9 @@ button[onglet].active {
     /* Positionne le post dans la deuxième colonne */
     display: none;
     /* Masque l'onglet par défaut */
+      .post_message { 
+      background: none; 
+    }
 }
 
 /* Message en onglet qui est ouvert */
