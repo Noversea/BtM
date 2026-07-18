@@ -357,3 +357,68 @@ a.forumtitle { font: italic 30px 'Amoria'; }
   text-transform: uppercase;
   font-style: italic;
   font-family: var(--fontextra); }
+
+/*GUIDEBOOK*/
+/* Conteneur de tous les messages d'un sujet */
+/* Cette class est ajouté par le script que si le sujet contient un élément <buton onglet=""> */
+.page-tab {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    /* transforme la structure du post en deux colonnes, la première pour les boutons, la deuxième pour les onglets */
+    gap: 10px;
+    margin-top: 10px;
+
+    /* Supprime tous les éléments superflus comme les profils, la date, certains boutons d'édition...*/
+    .post_profile,
+    .post_date,
+    .like_button,
+    .btn-quote,
+    li:has(.fa-mention),
+    .btn-ip {
+        display: none;
+    }
+}
+
+/* Modification du message qui contient les boutons */
+.page-tab .post:has(button[onglet]) {
+    display: block;
+    grid-row: 1;
+    grid-column: 1;
+    /* Positionne le post dans la première colonne */
+    width: 220px;
+    /* Largeur du sujet */
+}
+
+/* Bouton d'onglet */
+button[onglet] {
+    background-color: var(--neutralDark);
+    border-radius: 15px;
+    padding: 3px 10px;
+    margin-bottom: 5px;
+}
+
+/* Bouton d'onglet cliqué */
+button[onglet].active {
+    background-color: var(--accentClr);
+    color: var(--neutral);
+    font-weight: bold;
+}
+
+/* Modification du message qui contient les onglets */
+.page-tab .post:has(div[onglet]) {
+    grid-row: 1;
+    grid-column: 2;
+    /* Positionne le post dans la deuxième colonne */
+    display: none;
+    /* Masque l'onglet par défaut */
+}
+
+/* Message en onglet qui est ouvert */
+.page-tab .post:has(div[onglet]).active {
+    display: block;
+}
+
+/* Masque les boutons d'édition lorsque l'option cochée */
+.page-tab.clear .post_details {
+    display: none;
+}
