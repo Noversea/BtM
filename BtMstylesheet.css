@@ -388,6 +388,9 @@ a.forumtitle { font: italic 30px 'Amoria'; }
     /* Positionne le post dans la première colonne */
     width: 220px;
     /* Largeur du sujet */
+    .post_message { 
+      background: none; 
+    }  
 }
 
 /* Bouton d'onglet */
