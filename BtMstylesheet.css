@@ -416,7 +416,8 @@ button[onglet].active {
     display: none;
     /* Masque l'onglet par défaut */
       .post_message { 
-      background: none; 
+      background: none;
+      min-height: 445px;
     }
 }
 
