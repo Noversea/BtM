@@ -390,6 +390,7 @@ a.forumtitle { font: italic 30px 'Amoria'; }
     /* Largeur du sujet */
     .post_message { 
       background: none; 
+      min-height: 445px;
     }  
 }
 
@@ -417,7 +418,6 @@ button[onglet].active {
     /* Masque l'onglet par défaut */
       .post_message { 
       background: none;
-      min-height: 445px;
     }
 }
 
